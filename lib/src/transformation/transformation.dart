@@ -16,6 +16,10 @@ class Transformation {
     return param('h', height);
   }
 
+  Transformation format(int height) {
+    return param('f', height);
+  }
+
   Transformation x(int x) {
     return param('x', x);
   }
